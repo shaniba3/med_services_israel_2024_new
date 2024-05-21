@@ -6,7 +6,7 @@ from scipy.stats import pearsonr
 
 
 def count_professionals_by_authority(med_serv_table: pd.DataFrame, profession: str = None, kupa: str = None) -> pd.Series:
-    """"
+    """
     this function filters the med_serv_table according to the required profession and/or kupat-holim
     and then grouped the data by the local authority.
     :param med_serv_table: a pandas dataframe containing all medical doctors in Israel including their profession and
